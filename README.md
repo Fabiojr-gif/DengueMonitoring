@@ -66,3 +66,35 @@ DengueMonitoring/
 │   └── deploy.sh
 ├── requirements.txt (se for Python)
 └── app-release.apk (se for Android)
+# Clonar o repositório existente
+git clone https://github.com/Fabiojr-gif/DengueMonitoring.git
+cd DengueMonitoring
+
+# Criar arquivos e estrutura
+mkdir -p docs src/main/java/com/denguemonitoring src/main/resources src/test/java/com/denguemonitoring data assets/images assets/animations scripts
+touch README.md .gitignore LICENSE
+
+# Adicionar arquivos do projeto
+cp /caminho/do/arquivo/Relatorio_PI_III_Entrega_final_PDF.pdf docs/
+
+# Inicializar projeto Java (exemplo)
+echo "public class App { public static void main(String[] args) { System.out.println(\"Dengue Monitoring iniciado!\"); } }" > src/main/java/com/denguemonitoring/App.java
+echo "public class AppTest { }" > src/test/java/com/denguemonitoring/AppTest.java
+
+# Git comandos
+git add .
+git commit -m "Estrutura inicial do projeto DengueMonitoring"
+git push origin main
+# DengueMonitoring
+
+Aplicativo desenvolvido no âmbito do Projeto Integrador III (UNIVESP) para monitoramento de casos suspeitos de dengue.
+
+## Estrutura
+- `src/`: Código-fonte principal
+- `docs/`: Documentação e relatórios
+- `assets/`: Imagens e animações do app
+- `data/`: Conjuntos de dados de testes
+- `scripts/`: Scripts úteis
+
+## Desenvolvedor
+Fábio Fernandes Junior – Polo Dourado-SP – UNIVESP
