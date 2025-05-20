@@ -38,3 +38,31 @@ Desenvolver um aplicativo web para monitoramento de pacientes com suspeita de de
 - `/frontend`: interface HTML simples
 - `/database`: estrutura do banco de dados
 - `/relatorio`: PDF do relatório final enviado à UNIVESP
+DengueMonitoring/
+├── README.md
+├── .gitignore
+├── LICENSE
+├── docs/
+│   └── Relatorio_PI_III_Entrega_final_PDF.pdf
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── denguemonitoring/
+│   │   │           └── App.java
+│   │   └── resources/
+│   │       └── config.properties
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── denguemonitoring/
+│                   └── AppTest.java
+├── data/
+│   └── sample_dataset.csv
+├── assets/
+│   ├── images/
+│   └── animations/
+├── scripts/
+│   └── deploy.sh
+├── requirements.txt (se for Python)
+└── app-release.apk (se for Android)
